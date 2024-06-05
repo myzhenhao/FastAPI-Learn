@@ -1,0 +1,58 @@
+{%include 'layout.html'%}
+<div class="flex flex-col gap-10 py-8">
+  <div class="flex flex-col items-center gap-6">
+    <h2 class="text-3xl font-bold sm:text-6xl">My Portfolio</h2>
+    <img src="{{url_for('static', path='/img/yap.webp')}}" alt="advaspire" />
+    <p class="mt-4 text-blue-600 text-2xl">This is me YAP ZHEN HAO!!!</p>
+  </div>
+
+  <div
+    class="grid grid-cols-1 lg:grid-cols-2 min-w-96 mx-auto px-10 py-8 gap-10 rounded-xl border border-gray-500"
+  >
+    <div
+      class="flex flex-col min-w-96 rounded-xl border border-gray-500 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring"
+    >
+      <h2 class="mt-2 font-bold text-xl">My Hobby</h2>
+      <ul>
+        <li class="text-base text-gray-600">- Coding</li>
+        <li class="text-base text-gray-600">- Play Games</li>
+        <li class="text-base text-gray-600">- Travel</li>
+      </ul>
+    </div>
+
+    <div
+      class="flex flex-col min-w-96 rounded-xl border border-gray-500 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring"
+    >
+      <h2 class="mt-2 font-bold text-xl">My Color</h2>
+      <ul>
+        <li class="text-base text-gray-600">- Blue</li>
+        <li class="text-base text-gray-600">- Red</li>
+        <li class="text-base text-gray-600">- Yellow</li>
+      </ul>
+    </div>
+
+    <div
+      class="flex flex-col min-w-96 rounded-xl border border-gray-500 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring"
+    >
+      <h2 class="mt-2 font-bold text-xl">My Subject</h2>
+
+      <ul>
+        <li class="text-base text-gray-600">- Coding</li>
+        <li class="text-base text-gray-600">- Science</li>
+        <li class="text-base text-gray-600">- Cooking</li>
+      </ul>
+    </div>
+
+    <div
+      class="flex flex-col min-w-96 rounded-xl border border-gray-500 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring"
+    >
+      <h2 class="mt-2 font-bold text-xl">My Roles</h2>
+
+      <ul>
+        <li class="text-base text-gray-600">- Teacher</li>
+        <li class="text-base text-gray-600">- Student</li>
+        <li class="text-base text-gray-600">- Trainer</li>
+      </ul>
+    </div>
+  </div>
+</div>
