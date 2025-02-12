@@ -1,5 +1,5 @@
 # uvicorn main:app --reload
-# uvicorn main:app --host 0.0.0.0 --port 10000
+# uvicorn main:app --host 0.0.0.0 
 from fastapi import FastAPI
 from starlette.staticfiles import StaticFiles
 from starlette import status

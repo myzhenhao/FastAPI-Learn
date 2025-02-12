@@ -24,6 +24,15 @@ async def home_page(request: Request):
 async def about_page(request: Request):
     return templates.TemplateResponse("about.html", {"request": request})
 
+
 @router.get("/portfolio", response_class=HTMLResponse)
-async def about_page(request: Request):
+async def portfolio_page(request: Request):
     return templates.TemplateResponse("portfolio.html", {"request": request})
+
+@router.get("/blog", response_class=HTMLResponse)
+async def blog_page(request: Request):
+    return templates.TemplateResponse("blog.html", {"request": request})
+
+@router.get("/contact", response_class=HTMLResponse)
+async def contact_page(request: Request):
+    return templates.TemplateResponse("contact.html", {"request": request})

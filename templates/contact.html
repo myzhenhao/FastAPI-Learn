@@ -1,0 +1,44 @@
+{%include 'layout.html'%}
+<a
+  href="#"
+  class="flex flex-col justify-center m-10"
+>
+  <span
+    class="absolute inset-x-0 bottom-0 h-2 bg-gradient-to-r from-green-300 via-blue-500 to-purple-600"
+  ></span>
+
+  <div class="sm:flex sm:justify-between sm:gap-4">
+    <div>
+      <h3 class="text-lg font-bold text-gray-900 sm:text-xl">
+        Be a robotics programmer
+      </h3>
+
+      <p class="mt-1 text-xs font-medium text-gray-600">By Yap Zhen Hao</p>
+    </div>
+
+
+  </div>
+  <div class="flex">
+    <img
+      alt=""
+      src="{{url_for('static', path='/img/yap.webp')}}"
+    />
+  </div>
+  <div class="mt-4">
+    <p class="text-pretty text-sm text-gray-500">
+      Welcome to contact me ~
+    </p>
+  </div>
+
+  <dl class="mt-6 flex gap-4 sm:gap-6">
+    <div class="flex flex-col-reverse">
+      <dt class="text-sm font-medium text-gray-600">myzhenhao@gmail.com</dt>
+      <dd class="text-xs text-gray-500">Email</dd>
+    </div>
+
+    <div class="flex flex-col-reverse">
+      <dt class="text-sm font-medium text-gray-600">+6017-2037375</dt>
+      <dd class="text-xs text-gray-500">Contact number</dd>
+    </div>
+  </dl>
+</a>
